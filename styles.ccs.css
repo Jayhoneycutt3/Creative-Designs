@@ -1,0 +1,63 @@
+/* Color Scheme */
+:root {
+    --primary-color: #007bff; /* Blue */
+    --secondary-color: #666666; /* Medium Gray */
+    --background-color: #F5F5F5; /* Light Gray */
+    --text-color: #333333; /* Dark Gray */
+    --link-color: #007bff; /* Blue */
+    --visited-link-color: #6600cc; /* Purple */
+    --hover-link-color: #ff9933; /* Orange */
+}
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    color: var(#--text-color);
+}
+
+/* Basic layout */
+header, footer {
+    background-color: var(#--text-color);
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+    background-color: var(#--background-color);
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Thumbnails */
+.thumbnail {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    background-color: var(#--text-color);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: var(#--hover-link-color);
+}
